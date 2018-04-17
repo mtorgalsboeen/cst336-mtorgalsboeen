@@ -1,0 +1,66 @@
+[28-Mar-2018 23:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 7
+[28-Mar-2018 23:31:19 UTC] PHP Stack trace:
+[28-Mar-2018 23:31:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[28-Mar-2018 23:31:19 UTC] PHP   2. letterOptions() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:42
+[28-Mar-2018 23:32:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 7
+[28-Mar-2018 23:32:10 UTC] PHP Stack trace:
+[28-Mar-2018 23:32:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[28-Mar-2018 23:32:10 UTC] PHP   2. letterOptions() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:42
+[28-Mar-2018 23:46:06 UTC] PHP Fatal error:  Call to undefined function getLetterTable() in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 26
+[28-Mar-2018 23:46:06 UTC] PHP Stack trace:
+[28-Mar-2018 23:46:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[28-Mar-2018 23:46:06 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:91
+[29-Mar-2018 00:22:17 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:22:17 UTC] PHP Stack trace:
+[29-Mar-2018 00:22:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:22:17 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:22:17 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:24:34 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:24:34 UTC] PHP Stack trace:
+[29-Mar-2018 00:24:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:24:34 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:24:34 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:24:44 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:24:44 UTC] PHP Stack trace:
+[29-Mar-2018 00:24:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:24:44 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:24:44 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:29:20 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:29:20 UTC] PHP Stack trace:
+[29-Mar-2018 00:29:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:29:20 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:29:20 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:29:40 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:29:40 UTC] PHP Stack trace:
+[29-Mar-2018 00:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:29:40 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:29:40 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:29:47 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:29:47 UTC] PHP Stack trace:
+[29-Mar-2018 00:29:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:29:47 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:29:47 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:29:49 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:29:49 UTC] PHP Stack trace:
+[29-Mar-2018 00:29:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:29:49 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:29:49 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:30:58 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:30:58 UTC] PHP Stack trace:
+[29-Mar-2018 00:30:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:30:58 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:30:58 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:32:24 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 36
+[29-Mar-2018 00:32:24 UTC] PHP Stack trace:
+[29-Mar-2018 00:32:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:32:24 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:101
+[29-Mar-2018 00:32:24 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:36
+[29-Mar-2018 00:55:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 51
+[29-Mar-2018 00:55:35 UTC] PHP Stack trace:
+[29-Mar-2018 00:55:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 00:55:35 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:117
+[29-Mar-2018 01:10:21 UTC] PHP Warning:  array_splice() expects parameter 2 to be long, string given in /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php on line 44
+[29-Mar-2018 01:10:21 UTC] PHP Stack trace:
+[29-Mar-2018 01:10:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:0
+[29-Mar-2018 01:10:21 UTC] PHP   2. displayTable() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:128
+[29-Mar-2018 01:10:21 UTC] PHP   3. array_splice() /home/ubuntu/workspace/exams/cst336_midterm/cst336_midterm.php:44

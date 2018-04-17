@@ -1,0 +1,80 @@
+
+imgURL.resize {
+    width: 72px;
+    height: 40px;
+}
+
+h1 {
+    font-family: 'Graduate', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   text-align: center;
+}
+body{
+    background-color: black;
+    color: red;
+    font-family: 'Graduate', cursive;
+    font-size: 1.5em;
+
+
+}
+header{
+    text-align: center;
+}
+#reel0, #reel1, #reel2, #reel3{
+    height:140px;
+    width: 110px;
+    border-radius:5px;
+}
+input{
+    bottom:0px;
+    left:750px;
+    position:absolute;
+    font-size:2.5em;
+    background-color: red;
+    border:none;
+    outline:red; /*hides button outline when clicking on it*/
+    font-weight:bold;
+    color:white;
+    cursor:pointer;
+    border-radius:10px;
+}
+    
+#output{
+    width:600px;   
+    margin:0 auto;
+    position:absolute;
+    text-align:center;
+    top:450px;
+    font-size:5.5em;
+    line-height: .7em;
+
+}
+imgURL.resize{
+    width: 72px;
+    height: 40px;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: -50px;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+   text-align: center;
+
+}
+p1{
+    font-family: 'Graduate', cursive;
+
+}
