@@ -1525,3 +1525,17 @@
 [28-Mar-2018 02:23:46 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/zodiac/index.php on line 17
 [28-Mar-2018 02:23:46 UTC] PHP Stack trace:
 [28-Mar-2018 02:23:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/zodiac/index.php:0
+[19-Apr-2018 18:33:43 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/logintest-zippet/database.php on line 4
+[19-Apr-2018 18:33:43 UTC] PHP Stack trace:
+[19-Apr-2018 18:33:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/logintest-zippet/database.php:0
+[19-Apr-2018 18:33:43 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/logintest-zippet/database.php:4
+[19-Apr-2018 22:09:14 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/logintest-zippet/functions.php on line 4
+[19-Apr-2018 22:09:14 UTC] PHP Stack trace:
+[19-Apr-2018 22:09:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/logintest-zippet/admin.php:0
+[19-Apr-2018 22:09:14 UTC] PHP   2. require() /home/ubuntu/workspace/logintest-zippet/admin.php:22
+[19-Apr-2018 22:09:14 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/logintest-zippet/functions.php:4
+[19-Apr-2018 22:10:15 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/logintest-zippet/functions.php on line 4
+[19-Apr-2018 22:10:15 UTC] PHP Stack trace:
+[19-Apr-2018 22:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/logintest-zippet/admin.php:0
+[19-Apr-2018 22:10:15 UTC] PHP   2. require() /home/ubuntu/workspace/logintest-zippet/admin.php:22
+[19-Apr-2018 22:10:15 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/logintest-zippet/functions.php:4

@@ -1,0 +1,33 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+            What does CSS stand for
+    <input type="text" id="question5" name="q4" />
+    <p id="q5Reply"></p>
+    </div>
+    <div>
+    <button id="submit">Submit</button>
+        <script>
+            submit.onclick = grade;
+            
+            function grade(){
+                grading("q5Reply", $("#question5").val(), "Cascading Style Sheets");
+            }
+     function grading(tag, question, correctAnswer) {
+      if (question == correctAnswer) {
+          ++totalScore;
+          $("#" + tag).html("Correct");
+          $("#" + tag).css("color", "green");
+          $("#" + tag).append("<img src='check.png'>");
+      }
+      else {
+          $("#" + tag).html("Incorrect, correct answer is " + correctAnswer);
+          $("#" + tag).css("color", "red");
+          $("#" + tag).append("<img src='xmark.png'>");
+      }
+  }          
+        </script>    
+    </body>
+</html>

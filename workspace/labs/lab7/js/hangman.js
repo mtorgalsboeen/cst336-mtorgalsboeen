@@ -12,6 +12,16 @@ var words = [{ word: "snake", hint: "It's a reptile" },
 //Listeners
 window.onload = startGame();
 
+$("#letters").on("click", ".letter", function(){
+    checkLetter($(this).attr("id"));
+    disableButton($(this));
+});
+
+// Reload page when clicking on the replay button
+$(".replayBtn").on("click", function() {
+    location.reload();
+});
+
 //Functions
 function startGame(){
     pickWord();
@@ -26,7 +36,7 @@ function initBoard(){
 }
 function pickWord(){
     var randomInt = Math.floor(Math.random() * words.length);
-    selectedWord = words[randomInt].toUpperCase();
+    selectedWord = words[randomInt].word.toUpperCase();
     selectedHint = words[randomInt].hint;
 }
 function updateBoard(){
