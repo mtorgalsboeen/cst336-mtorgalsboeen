@@ -89,14 +89,14 @@ function updateBoard() {
    // $("#word").append("<div id='hint'>Hint: " + selectedHint + "</div>")
    
 }
-function myFunction() {
-    var x = document.getElementById("hint");
-    if (x.style.display === "none") {
-        x.style.display = "Hint: " + selectedHint";
-    } else {
-        x.style.display = "none";
-    }
-}
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $("#word").append("<p id='hint'>Hint: " + selectedHint + "</p>").hide();
+    });
+    $(".btn2").click(function(){
+        $("#word").append("<p id='hint'>Hint: " + selectedHint + "</p>").show();
+    });
+});
 
 
 // Update the current word then calls for a board update
