@@ -36,7 +36,7 @@
 									<li><a href="homework/hw1/homework1.php">Homework 1</a></li>
 									<li><a href="homework/hw2/homework2.php">Homework 2</a></li>
 									<li><a href="homework/hw3/index.php">Homework 3</a></li>
-									<li><a href="homework/hw4/homework4.php">Homework 4</a></li>
+									<li><a href="homework/hw4/index.html">Homework 4</a></li>
 									<li><a href="homework/hw5/homework5.php">Homework 5</a></li>
 								</ul>
 						</li>
