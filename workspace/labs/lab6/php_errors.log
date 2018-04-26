@@ -1,0 +1,24 @@
+[26-Apr-2018 18:25:35 UTC] PHP Fatal error:  Call to undefined function getCategoriesHTML() in /home/ubuntu/workspace/labs/lab6/scart/index.php on line 95
+[26-Apr-2018 18:25:35 UTC] PHP Stack trace:
+[26-Apr-2018 18:25:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/scart/index.php:0
+[26-Apr-2018 18:25:39 UTC] PHP Fatal error:  Call to undefined function getCategoriesHTML() in /home/ubuntu/workspace/labs/lab6/scart/index.php on line 95
+[26-Apr-2018 18:25:39 UTC] PHP Stack trace:
+[26-Apr-2018 18:25:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/scart/index.php:0
+[26-Apr-2018 18:26:25 UTC] PHP Fatal error:  Call to undefined function getCategoriesHTML() in /home/ubuntu/workspace/labs/lab6/scart/index.php on line 95
+[26-Apr-2018 18:26:25 UTC] PHP Stack trace:
+[26-Apr-2018 18:26:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/scart/index.php:0
+[26-Apr-2018 18:26:29 UTC] PHP Fatal error:  Call to undefined function getCategoriesHTML() in /home/ubuntu/workspace/labs/lab6/scart/index.php on line 95
+[26-Apr-2018 18:26:29 UTC] PHP Stack trace:
+[26-Apr-2018 18:26:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab6/scart/index.php:0
+[26-Apr-2018 18:27:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/labs/lab6/scart/inc/database.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/scart/inc/database.php(32): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/labs/lab6/scart/index.php(3): include('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/scart/inc/database.php on line 32
+[26-Apr-2018 18:27:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/labs/lab6/scart/inc/database.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/labs/lab6/scart/inc/database.php(32): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/labs/lab6/scart/index.php(3): include('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/labs/lab6/scart/inc/database.php on line 32

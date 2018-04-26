@@ -13,6 +13,7 @@ var selectedWord = "";
 var selectedHint = "";
 var board = []; // empty array
 var remainingGuesses = 6;
+var guessedWords = "";
 
 //LISTENERS
 
@@ -23,6 +24,7 @@ window.onload = startGame();
 $("#letters").on("click", ".letter", function(){
     checkLetter($(this).attr("id"));
     disableButton($(this));
+    guessedWords($(this));
 });
 
 // Reload page when clicking on the replay button
@@ -170,3 +172,7 @@ $(document).ready(function(){
         $("#hint").show();
     });
 });
+var i = 0;
+for(i = 0;i < guessedWords; i++){
+    $("#wordss").append("<div>" + guessedWords[i] + "</div>");
+}
