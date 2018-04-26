@@ -28,6 +28,7 @@
 									<li><a href="labs/scart/index.php">Lab 5</a></li>
 									<li><a href="labs/lab6/scart/index.php">Lab 6</a></li>
 									<li><a href="labs/lab7/index.html">Lab 7</a></li>
+									<li><a href="labs/lab8/index.html">Lab 8</a></li>
 								</ul>
 						</li>	
 						<li>

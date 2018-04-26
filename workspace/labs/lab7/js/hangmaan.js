@@ -85,18 +85,10 @@ function updateBoard() {
         $("#word").append(board[i] + " ");
     }
     
-   // $("#word").append("<br />");
-   // $("#word").append("<div id='hint'>Hint: " + selectedHint + "</div>")
-   
+    $("#word").append("<br />");
+    $("#word").append("<div id='hint'>Hint: " + selectedHint + "</div>")
 }
-$(document).ready(function(){
-    $(".btn1").click(function(){
-        $("#word").append("<p id='hint'>Hint: " + selectedHint + "</p>").hide();
-    });
-    $(".btn2").click(function(){
-        $("#word").append("<p id='hint'>Hint: " + selectedHint + "</p>").show();
-    });
-});
+
 
 
 // Update the current word then calls for a board update
@@ -169,3 +161,11 @@ function disableButton(btn) {
 // function replaceAt(str, index, value) {
 //     return str.substr(0, index) + value + str.substr(index + value.length);
 // }
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#hint").hide();
+    });
+    $("#show").click(function(){
+        $("#hint").show();
+    });
+});
