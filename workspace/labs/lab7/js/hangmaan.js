@@ -86,7 +86,8 @@ function updateBoard() {
     }
     
     $("#word").append("<br />");
-    $("#word").append("<div id='hint'>Hint: " + selectedHint + "</div>")
+    $("#hint").html("<div id='hint'>Hint: " + selectedHint + "</div>")
+    $("#hint").css("display", "none");
 }
 
 
