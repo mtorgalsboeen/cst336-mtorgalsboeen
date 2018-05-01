@@ -164,3 +164,6 @@
 [25-Apr-2018 23:46:22 UTC] PHP Fatal error:  Call to undefined function connectToDB() in /home/ubuntu/workspace/labs/lab8/checkUsername.php on line 5
 [25-Apr-2018 23:46:22 UTC] PHP Stack trace:
 [25-Apr-2018 23:46:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab8/checkUsername.php:0
+[30-Apr-2018 23:47:51 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/labs/lab9/verifyUser.php on line 5
+[30-Apr-2018 23:47:51 UTC] PHP Stack trace:
+[30-Apr-2018 23:47:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/labs/lab9/verifyUser.php:0
