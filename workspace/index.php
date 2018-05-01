@@ -47,6 +47,7 @@
 									<li><a href="projects/nanopool.php">Mining-Rig</a></li>
 									<li><a href="projects/password_generator.php">Password Generator</a></li>
 									<li><a href="projects/random_game/index.php">Card Game</a></li>
+									<li><a href="projects/final/login.php">Final</a></li>
 								</ul>
 						</li>	
 						<li><a href="contact.php">Contact</a></li>

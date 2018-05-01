@@ -4,7 +4,7 @@ function getDBConnection() {
     
     //C9 db info
     $host = "localhost";
-    $dbName = "csumb_quiz";
+    $dbName = "final_project_login";
     $username = "mtorgalsboeen";
     $password = "cst336";
     

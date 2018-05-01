@@ -6,7 +6,7 @@ $connect = getDBConnection();
 
 //Checking credentials in database
 
-$sql = "SELECT * FROM users 
+$sql = "SELECT * FROM login_cred 
             WHERE username = :username 
                 AND password = :password";
 $stmt = $connect->prepare($sql);
