@@ -1,5 +1,5 @@
 <?php
-include '../dbConnection.php';
+include '../../dbConnection.php';
 $conn = connectToDB("lab8");
 $username = $_POST['username'];
 $password = $_POST['password'];
