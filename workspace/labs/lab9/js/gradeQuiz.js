@@ -19,21 +19,42 @@ $(document).ready(function(){
         
         //Checks if answers are correct
         // Question 1
-
+        if(answer1 === "1994"){
+            correctAnswer($("#question1-feedback"));
+        }else{
+            incorrectAnswer($("#question1-feedback"));
+        }
+        
+        $("#question1-feedback").append("The answer is <strong>1994</strong>");
+        
         // Question 2
-
+        if(answer2 === "C"){
+            correctAnswer($("#question2-feedback"));
+        }else{
+            incorrectAnswer($("#question2-feedback"));
+        }
+        
+        $("#question2-feedback").append("The answer is <strong>Monte Rey</strong>");
 
         //Displays quiz score
-
-
+        $('#score').html(score);
+        $("#waiting").html("<img src='img/loading.gif' alt='submitting data' />");
+        $("input[type='submit']").css("display", "none");
+        
         //Submits and stores score, retrieves average score
         $.ajax({
-            type : "",
-            url  : "",            
-            dataType : "",
-            data : {"" : },            
+            type : "GET",
+            url  : "submitScores.php",            
+            dataType : "json",
+            data : {"score" : score},            
             success : function(data){
-                console.log(data);
+                
+                $("#times").html(data.times);
+                $("#average").html(data.average);
+                $("#feedback").css("display", "block");
+                $("#waiting").html("");
+                $("input[type='submit']").css("display", "");
+                //console.log(data);
                 
             },
             complete: function(data,status) { //optional, used for debugging purposes
