@@ -43,7 +43,11 @@ function displayQuiz(){
                 <img src="img/mascot.png" alt="CSUMB Mascot" width="350" />
             </div>
         </div>
-        
+        <script>
+            $("#logoutBtn").click(function(){
+                window.location.href="logout.php";
+            });
+        </script>
         <!--Javascript files-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/gradeQuiz.js"></script>
