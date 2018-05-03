@@ -56,6 +56,8 @@ $(document).ready(function(){
                 $("input[type='submit']").css("display", "");
                 //console.log(data);
                 
+                score = 0;
+                
             },
             complete: function(data,status) { //optional, used for debugging purposes
                // alert(status);
