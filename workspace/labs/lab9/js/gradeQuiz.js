@@ -56,7 +56,7 @@ $(document).ready(function(){
             incorrectAnswer($("#question4-feedback"));
         }
         
-        $("#question4-feedback").append("The answer is <strong>2</strong>");  
+        $("#question4-feedback").append("The answer is <strong>1994</strong>");  
         
         //Displays quiz score
         $('#score').html(score);
