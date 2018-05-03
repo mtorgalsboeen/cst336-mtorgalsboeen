@@ -8,6 +8,7 @@ function getDBConnection() {
     $username = "mtorgalsboeen";
     $password = "cst336"; */
     
+   //Heroku db info 
     $host = "us-cdbr-iron-east-05.cleardb.net";
     $dbName = "heroku_9be7bc2b5b932f8";
     $username = "b5583204ad69fb";
