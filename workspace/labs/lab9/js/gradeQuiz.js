@@ -50,13 +50,13 @@ $(document).ready(function(){
         $("#question3-feedback").append("The answer is <strong>1</strong>");        
 
         // Question 4
-        if(answer1 === "CST336"){
+        if(answer4 === "B"){
             correctAnswer($("#question4-feedback"));
         }else{
             incorrectAnswer($("#question4-feedback"));
         }
         
-        $("#question4-feedback").append("The answer is <strong>CST336</strong>");
+        $("#question4-feedback").append("The answer is <strong>2</strong>");  
         
         //Displays quiz score
         $('#score').html(score);
