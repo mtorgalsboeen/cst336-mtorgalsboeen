@@ -11,6 +11,16 @@
     <input type="radio" name="question2" id="q2-3"  Value="C"/><label for='q2-3'>Monte Rey <br />
     <div id="question2-feedback" class="answer"></div><br />
 
+    How many dinning halls does CSUMB have?<br />
+    <input type="radio" name="question3" id="q3-1"  value="A"/><label for='q2-1'>1 <br />
+    <input type="radio" name="question3" id="q3-2"  value="B"/><label for='q2-2'>2 <br />
+    <input type="radio" name="question3" id="q3-3"  Value="C"/><label for='q2-3'>3 <br />
+    <div id="question3-feedback" class="answer"></div><br />    
+    
+    What is the coursecode of Internet Programming?? 
+    <input type="text" name="question4" size="5" /><br />
+    <div id="question5-feedback" class="answer"></div><br />    
+
     <input type="submit" value="Submit" />
     
     <!--Will display the "loading" or "spinning" animated gif-->
