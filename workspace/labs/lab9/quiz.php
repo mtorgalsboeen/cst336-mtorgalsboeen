@@ -18,9 +18,9 @@
     <div id="question3-feedback" class="answer"></div><br />    
     
     When was PHP founded?<br />
-    <input type="radio" name="question4" id="q4-1"  value="A"/><label for='q4-1'>1997 <br />
-    <input type="radio" name="question4" id="q4-2"  value="B"/><label for='q4-2'>1994 <br />
-    <input type="radio" name="question4" id="q4-3"  Value="C"/><label for='q4-3'>2018 <br />
+    <input type="radio" name="question4" id="q4-1"  value="1997"/><label for='q4-1'>1997 <br />
+    <input type="radio" name="question4" id="q4-2"  value="1994"/><label for='q4-2'>1994 <br />
+    <input type="radio" name="question4" id="q4-3"  Value="2018"/><label for='q4-3'>2018 <br />
     <div id="question4-feedback" class="answer"></div><br />    
 
     <input type="submit" value="Submit" />

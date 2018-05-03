@@ -50,7 +50,7 @@ $(document).ready(function(){
         $("#question3-feedback").append("The answer is <strong>1</strong>");        
 
         // Question 4
-        if(answer4 === "B"){
+        if(answer4 === "1994"){
             correctAnswer($("#question4-feedback"));
         }else{
             incorrectAnswer($("#question4-feedback"));
