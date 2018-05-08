@@ -17,17 +17,21 @@
         
         
         $lengdeETC = count($nanopool_json_array['data']);
-        echo $lengde;
+        //echo $lengde;
         echo "<div class='sumetc'>" . "<h1>Payments - Ethereum Classic</h1>";
         
         for($i=0;$i<$lengdeETC;$i++){
             $amount = $nanopool_json_array['data'][$i]['amount'];
-            echo "<div class='sumetc'>" . $amount . "<br>" . "</div>";
+            //echo "<div class='content'>" . $amount . "<br>" . "</div>";
         }
-        echo "<br>";
-        echo "Total amount ETC: <br>"; 
-        echo "<h3>$lengdeETC</h2>";        
+     //   echo "<br>";
+     //   echo "Total amount ETC: <br>"; 
+     //   echo "<h3>$lengdeETC</h2>";
         //header("Location: personal.php");
+
+     //   $text = "Hello world!";
+        echo '<script type="text/javascript">window.onload = function() { document.getElementById("content").innerHTML = "' . $lengdeETC . '"; }</script>';
+        
         
         //0xe0946bc010a5a842eeeae255214c2ec673e500b7
     }    
@@ -59,6 +63,9 @@
                     </div>
                     <input type="submit" class="btn btn-primary" name="submit" value="Submit"/>
                 </form>
+            </div>
+            <div id="content">
+                
             </div>
         </div>
     </body>
