@@ -125,3 +125,8 @@
 [26-Mar-2018 23:49:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/practice_exam/index.php:0
 [11-Apr-2018 23:28:05 UTC] PHP Parse error:  syntax error, unexpected 'WHERE' (T_STRING) in /home/ubuntu/workspace/projects/sql_practice/index.php on line 7
 [11-Apr-2018 23:28:07 UTC] PHP Parse error:  syntax error, unexpected 'WHERE' (T_STRING) in /home/ubuntu/workspace/projects/sql_practice/index.php on line 7
+[07-May-2018 23:18:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_9be7bc2b5b932f8.login_cred' doesn't exist' in /home/ubuntu/workspace/projects/final/verifyUser.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/verifyUser.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/projects/final/verifyUser.php on line 15

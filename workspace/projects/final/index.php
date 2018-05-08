@@ -1,3 +1,13 @@
+<?php
+session_start();
+    //displays Quiz if session is active
+    if(isset($_SESSION['username'])){
+        echo "Logged in as" . " " . $_SESSION['username'];
+    } else{
+        header("Location: login.php");
+    }
+// http://www.torgalsboen.no/bilder/motherboard.jpg
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,9 +22,9 @@
         <div class="scrollmenu">
           <a href="index.php">Home</a>
           <a href="shop.php">Shop</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-          <a href="login.php">Login</a>
+          <a href="nanopool.php">Nanopool</a>
+          <a href="support.php">Support</a>
+          <a href="logout.php">Sign out</a>
         </div>        
     </body>
 </html>

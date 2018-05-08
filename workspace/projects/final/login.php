@@ -23,6 +23,8 @@
                 </div>
                 <button class="btn btn-primary" type="submit" name="submit">Login</button>
             </form>
+            <br>
+            <button class="btn btn-primary" onclick="window.location.href='shop.php'">Go to Shop</button>
         </div>
         </div>
         </div>

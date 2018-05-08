@@ -3,11 +3,18 @@
 function getDBConnection() {
     
     //C9 db info
-    $host = "localhost";
-    $dbName = "final_project_login";
+  /* $host = "localhost";
+    $dbName = "csumb_quiz";
     $username = "mtorgalsboeen";
-    $password = "cst336";
+    $password = "cst336"; */
     
+   //Heroku db info 
+    $host = "us-cdbr-iron-east-05.cleardb.net";
+    $dbName = "heroku_9be7bc2b5b932f8";
+    $username = "b5583204ad69fb";
+    $password = "41a8adbb";    
+    
+    //mysql://b5583204ad69fb:41a8adbb@us-cdbr-iron-east-05.cleardb.net/heroku_9be7bc2b5b932f8?reconnect=true
     //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));

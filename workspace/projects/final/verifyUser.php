@@ -6,12 +6,12 @@ $connect = getDBConnection();
 
 //Checking credentials in database
 
-$sql = "SELECT * FROM login_cred 
+$sql = "SELECT * FROM final_users 
             WHERE username = :username 
                 AND password = :password";
 $stmt = $connect->prepare($sql);
 
-$data = array(":username" => $_POST['username'], ":password" => $_POST['password']);
+$data = array(":username" => $_POST['username'], ":password" => sha1($_POST['password']));
 $stmt->execute($data);
 
 $user = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -25,5 +25,6 @@ if(isset($user['username'])){
     
 } else {
     echo "The values you entered were incorrect. <a href='login.php'>Retry</a>";
+    
 }
 ?>
