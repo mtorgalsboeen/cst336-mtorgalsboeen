@@ -6,27 +6,29 @@
     } else{
         header("Location: login.php");
     }    
-    
-    if(isset($_POST["submit"])){
-        $addy = $_POST["address"];
+    function getData(){
         
-        $nanopool_url = 'https://api.nanopool.org/v1/etc/payments/' . $addy;
-        
-        $nanopool_json = file_get_contents($nanopool_url);
-        $nanopool_json_array = json_decode($nanopool_json, true);
-        
-        
-        $lengdeETC = count($nanopool_json_array['data']);
-        //echo $lengde;
-        echo "<div id='thecontent'>";
-        echo "<div>" . "<h1>Payments - Ethereum Classic</h1>";
-        
-        for($i=0;$i<$lengdeETC;$i++){
-            $amount = $nanopool_json_array['data'][$i]['amount'];
-            echo "<div>" . $amount . "<br>" . "</div>";
-            //echo '<script type="text/javascript">window.onload = function() { document.getElementById("content").innerHTML = "' . $amount . "<br>" . '"; }</script>';
-        }
-        echo "</div>";
+        if(isset($_POST["submit"])){
+            $addy = $_POST["address"];
+            
+            $nanopool_url = 'https://api.nanopool.org/v1/etc/payments/' . $addy;
+            
+            $nanopool_json = file_get_contents($nanopool_url);
+            $nanopool_json_array = json_decode($nanopool_json, true);
+            
+            
+            $lengdeETC = count($nanopool_json_array['data']);
+            //echo $lengde;
+            echo "<div id='thecontent'>";
+            echo "<div>" . "<h1>Payments - Ethereum</h1>";
+            
+            for($i=0;$i<$lengdeETC;$i++){
+                $amount = $nanopool_json_array['data'][$i]['amount'];
+                echo "<div>" . $amount . "<br>" . "</div>";
+                //echo '<script type="text/javascript">window.onload = function() { document.getElementById("content").innerHTML = "' . $amount . "<br>" . '"; }</script>';
+            }
+            echo "</div>";
+       } 
      //   echo "<br>";
      //   echo "Total amount ETC: <br>"; 
      //   echo "<h3>$lengdeETC</h2>";
@@ -64,7 +66,7 @@
                 </form>
             </div>
             <div id="thecontent">
-                
+                <?php getData() ?>
             </div>
         </div>
     </body>

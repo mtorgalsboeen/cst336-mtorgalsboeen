@@ -132,3 +132,39 @@ Stack trace:
   thrown in /home/ubuntu/workspace/projects/final/verifyUser.php on line 15
 [08-May-2018 00:51:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/projects/final/nanopool.php on line 37
 [08-May-2018 00:51:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/projects/final/nanopool.php on line 90
+[08-May-2018 22:20:43 UTC] PHP Fatal error:  Call to undefined function getColumn() in /home/ubuntu/workspace/projects/final/shop.php on line 34
+[08-May-2018 22:20:43 UTC] PHP Stack trace:
+[08-May-2018 22:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 22:21:15 UTC] PHP Fatal error:  Call to undefined function getColumn() in /home/ubuntu/workspace/projects/final/shop.php on line 34
+[08-May-2018 22:21:15 UTC] PHP Stack trace:
+[08-May-2018 22:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 22:24:33 UTC] PHP Fatal error:  Call to undefined function getColumn() in /home/ubuntu/workspace/projects/final/shop.php on line 33
+[08-May-2018 22:24:33 UTC] PHP Stack trace:
+[08-May-2018 22:24:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 23:33:11 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/projects/final/shop.php on line 7
+[08-May-2018 23:33:11 UTC] PHP Stack trace:
+[08-May-2018 23:33:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 23:33:11 UTC] PHP   2. produktene() /home/ubuntu/workspace/projects/final/shop.php:77
+[08-May-2018 23:35:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/projects/final/shop.php on line 8
+[08-May-2018 23:35:14 UTC] PHP Stack trace:
+[08-May-2018 23:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 23:35:14 UTC] PHP   2. produktene() /home/ubuntu/workspace/projects/final/shop.php:78
+[08-May-2018 23:35:14 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/projects/final/shop.php:8
+[08-May-2018 23:35:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/projects/final/shop.php on line 21
+[08-May-2018 23:35:14 UTC] PHP Stack trace:
+[08-May-2018 23:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 23:35:14 UTC] PHP   2. produktene() /home/ubuntu/workspace/projects/final/shop.php:78
+[08-May-2018 23:36:55 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/projects/final/shop.php on line 7
+[08-May-2018 23:36:55 UTC] PHP Stack trace:
+[08-May-2018 23:36:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 23:36:55 UTC] PHP   2. produktene() /home/ubuntu/workspace/projects/final/shop.php:77
+[08-May-2018 23:39:42 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/projects/final/shop.php on line 7
+[08-May-2018 23:39:42 UTC] PHP Stack trace:
+[08-May-2018 23:39:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 23:39:42 UTC] PHP   2. produktene() /home/ubuntu/workspace/projects/final/shop.php:77
+[08-May-2018 23:42:44 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/projects/final/shop.php on line 21
+[08-May-2018 23:42:44 UTC] PHP Stack trace:
+[08-May-2018 23:42:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[08-May-2018 23:42:55 UTC] PHP Fatal error:  Call to undefined method PDO::close() in /home/ubuntu/workspace/projects/final/shop.php on line 21
+[08-May-2018 23:42:55 UTC] PHP Stack trace:
+[08-May-2018 23:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
