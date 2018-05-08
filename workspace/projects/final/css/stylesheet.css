@@ -15,3 +15,12 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
     background-color: #777;
 }
+    #output{
+     width:600px;   
+     margin:0 auto;
+     position:absolute;
+     text-align:center;
+     top:450px;
+     font-size:1.5em;
+     line-height: .7em;
+    }

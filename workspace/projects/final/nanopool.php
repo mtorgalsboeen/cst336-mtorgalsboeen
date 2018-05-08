@@ -18,23 +18,22 @@
         
         $lengdeETC = count($nanopool_json_array['data']);
         //echo $lengde;
-        echo "<div class='sumetc'>" . "<h1>Payments - Ethereum Classic</h1>";
+        echo "<div id='thecontent'>";
+        echo "<div>" . "<h1>Payments - Ethereum Classic</h1>";
         
         for($i=0;$i<$lengdeETC;$i++){
             $amount = $nanopool_json_array['data'][$i]['amount'];
-            //echo "<div class='content'>" . $amount . "<br>" . "</div>";
+            echo "<div>" . $amount . "<br>" . "</div>";
+            //echo '<script type="text/javascript">window.onload = function() { document.getElementById("content").innerHTML = "' . $amount . "<br>" . '"; }</script>';
         }
+        echo "</div>";
      //   echo "<br>";
      //   echo "Total amount ETC: <br>"; 
      //   echo "<h3>$lengdeETC</h2>";
-        //header("Location: personal.php");
-
-     //   $text = "Hello world!";
-        echo '<script type="text/javascript">window.onload = function() { document.getElementById("content").innerHTML = "' . $lengdeETC . '"; }</script>';
+     //   header("Location: personal.php");
         
-        
-        //0xe0946bc010a5a842eeeae255214c2ec673e500b7
-    }    
+     //   0xe0946bc010a5a842eeeae255214c2ec673e500b7
+    }  
 ?>
 <!DOCTYPE html>
 <html>
@@ -64,7 +63,7 @@
                     <input type="submit" class="btn btn-primary" name="submit" value="Submit"/>
                 </form>
             </div>
-            <div id="content">
+            <div id="thecontent">
                 
             </div>
         </div>
