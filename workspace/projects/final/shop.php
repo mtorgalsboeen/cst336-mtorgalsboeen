@@ -1,20 +1,22 @@
 <?php
     include 'connect.php';
+    function produkter(){
     $connect = getDBConnection();
-    
     $sql = "SELECT * FROM products";
     $result = $connect->query($sql);
-
-        if ($result->num_rows > 0) {
-            // output data of each row
-            while($row = $result->fetch_assoc()) {
-                echo "<br> ID: " . $row["productId"] . "<br> Product: " . $row["product_name"] . "<br>" . $row["product_image"] . "<br>" . "Description: " . $row["product_description"] . "<br>" . "Price: " . 
+         
+        foreach ($result as $row) {
+         $itemName = $row['product_name']; 
+         $itemPrice = $row['product_price']; 
+         $itemImage = $row['product_image'];
+         $itemDescription = $row['product_description'];
+         /*  echo $row["product_name"] . "<br>" . "<img src='$row["product_image"]'/>" . "<br>" . "Description: " . $row["product_description"] . "<br>" . "Price: " . 
                 $row["product_price"];
-                echo "<br>";
-            }
-        } else {
-            echo "0 results";
+                    echo "<br>"; */
+        echo "<h3>$itemName</h3>" . "<br>" . "<img src='$itemImage' alt='Smiley face' height='180' width='180'>" . "<br>" 
+            . "<h4>" . "Price: " . "$" . $itemPrice . "</h4>";            
         }
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -68,6 +70,9 @@
             <tbody id="dataWrapper">
             </tbody>
         </table>
+    </div>
+    <div>
+        <?php produkter() ?>
     </div>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
