@@ -44,7 +44,8 @@
             for($k=0;$k<$lengdeWorkers;$k++){
                 $theWorkers = "Worker: " . $nanopool_workers_array['data'][$k]['id'] . "<br>" . "Current Hashrate: " . $nanopool_workers_array['data'][$k]['hashrate'] . "<br>";
                 echo $theWorkers;
-            }          
+            }
+            echo "</div>";
        }
        }
        function getValues(){
@@ -57,11 +58,12 @@
             
             
             $lengdeValuta = count($coinmarket_values_array);
-            echo "<br>" . "<br>" . "<br>";
+            echo "<div>" . "<h2>Currencies</h2>";
             for($j=0;$j<10;$j++){
                 $theValuta = $coinmarket_values_array[$j]['long'] . "<br>";
                 echo $theValuta;
             }
+            echo "</div>";
          }
        }
      //   0xe0946bc010a5a842eeeae255214c2ec673e500b7
@@ -74,23 +76,7 @@
                     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-        <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />   
-        <script>
-            function UpdateBtcPrice(){
-                $.ajax({
-                    type: "GET",
-                    url: "https://api.coinmarketcap.com/v1/ticker/bitcoin/",
-                    dataType: "json",
-                    success: function(result){
-                        btcPrice = result[0].price_usd;
-                    },
-                error: function(err){
-                    console.log(err);
-                }
-                });
-            } 
-            UpdateBtcPrice();
-        </script>
+        <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
     </head>
     <body>
         <div class="scrollmenu">
@@ -119,8 +105,6 @@
             <div id="valuta">
                 <?php getValues() ?>
             </div>            
-            <div id="halla" align="center">
-            </div>
         </div>
     </body>
 </html>
