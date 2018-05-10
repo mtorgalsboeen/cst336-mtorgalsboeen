@@ -29,6 +29,7 @@ $connect = getDBConnection();
     function findUsers(){
     $connect = getDBConnection();    
     if(isset($_POST['find'])){
+        echo "Halla";
         $sql = "SELECT * FROM users";
         $result = $connect->query($sql);
         //$records = executeWithParameter($sql,$namedParameters);
@@ -41,24 +42,13 @@ $connect = getDBConnection();
                 echo "<br>" . "<br>" . "<br>" . "<br>";
                 echo "<br>" . "<br>" . "<br>" . "<br>";
                 echo "Username: " . $name . "<br>" . "Password: " . $password . "<br>" . "UserID: " . $userid . "<br>" .
-                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . "<button class='btn btn-primary' id='editUser'>Edit User</button>";            
+                    "<input type='submit' class='btn btn-danger' name='deleteUser'>Delete User</input>" . "<button class='btn btn-primary' id='editUser'>Edit User</button>";            
             }
     }
-    if(isset($_POST['deleteUser'])){
-        echo $userid;
-       /* try{
-        $sqlQuery = "DELETE FROM `users` WHERE `users`.`userId` = $userid";
-        $connect->exec($sqlQuery);
-        echo "User is deleted!";
-        }
-        catch(PDOException $f)
-            {
-            echo $sqlQuery . "<br>" . $f->getMessage();
-            }
-        
-        $connect = null;  */        
     }
-    }
+    if(isset($_POST['deleteuser'])){
+        echo "<h1>hello</h1>";
+    }     
 // http://www.torgalsboen.no/bilder/motherboard.jpg
 // https://www.google.com/search?rlz=1C1CHBF_enUS796US796&ei=wY3zWsWoJdDcjwOx_47YBA&q=generate+sql+delete+button+with+each+echo+php+&oq=generate+sql+delete+button+with+each+echo+php+&gs_l=psy-ab.3...4188.12940.0.13116.20.20.0.0.0.0.78.1251.20.20.0....0...1c.1.64.psy-ab..0.9.566...33i160k1j33i21k1.0.sFCBQexeTw0
 ?>
@@ -81,26 +71,26 @@ $connect = getDBConnection();
           <a href="logout.php">Sign out</a>
         </div>
         <div class="col-xs-1" align="center">
-        <div class="container">
-            <h1>Register New Admin</h1>
-            <div class="col-sm-6">
-                <form action="" method="post">
-                    <div class="form-group">
-                        <label for="fnavn">Username: </label>
-                        <input type="text" class="form-control" name="fnavn"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="pass">Password: </label>
-                        <input type="text" class="form-control" name="pass"/>
-                    </div>
+            <div class="container">
+                <h1>Register New Admin</h1>
+                <div class="col-sm-6">
+                    <form action="" method="post" align="center">
+                        <div class="form-group">
+                            <label for="fnavn">Username: </label>
+                            <input type="text" class="form-control" name="fnavn"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Password: </label>
+                            <input type="text" class="form-control" name="pass"/>
+                        </div>
                         <input type="submit" class="btn btn-primary" name="submit" value="Submit"/>
                         <input type="submit" class="btn btn-primary" name="find" value="Find Users"/>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-        </div>
-        <div>
-            <?php findUsers() ?>
+            <div>
+                <?php findUsers() ?>
+            </div>
         </div>
     </body>
 </html>

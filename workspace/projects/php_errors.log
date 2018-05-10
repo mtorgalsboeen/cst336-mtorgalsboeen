@@ -248,3 +248,8 @@ Stack trace:
 [09-May-2018 23:43:46 UTC] PHP Stack trace:
 [09-May-2018 23:43:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/index.php:0
 [09-May-2018 23:43:46 UTC] PHP   2. findUsers() /home/ubuntu/workspace/projects/final/index.php:84
+[10-May-2018 20:18:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/projects/final/shop.php on line 75
+[10-May-2018 20:18:40 UTC] PHP Fatal error:  Call to undefined function executeWithParameter() in /home/ubuntu/workspace/projects/final/shop.php on line 8
+[10-May-2018 20:18:40 UTC] PHP Stack trace:
+[10-May-2018 20:18:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop.php:0
+[10-May-2018 20:18:40 UTC] PHP   2. produkter() /home/ubuntu/workspace/projects/final/shop.php:73

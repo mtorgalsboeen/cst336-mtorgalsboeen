@@ -28,7 +28,11 @@ div.scrollmenu a:hover {
 #data {
     float: left;
     clear: right;
+    width: 300px;
 }
 #workers {
     /*float: right;*/
+}
+#valuta {
+    float: right;
 }

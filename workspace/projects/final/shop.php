@@ -5,15 +5,16 @@
     $sql = "SELECT * FROM products";
     
     $result = $connect->query($sql);
-    $records = executeWithParameter($sql,$namedParameters);
+    //$records = executeWithParameter($sql,$namedParameters);
          
         foreach ($result as $row) {
          $itemName = $row['product_name']; 
          $itemPrice = $row['product_price']; 
          $itemImage = $row['product_image'];
          $itemDescription = $row['product_description'];
-            echo "<h3>$itemName</h3>" . "<br>" . "<h4 style='text-align:right'>" . "Price: " . "$" . $itemPrice . "</h4>" . "<br>" . "<img src='$itemImage' alt='$itemDescription' height='180' width='180'>" . "<br>";            
+            echo "<h3>$itemName</h3>" . "<br>" . "<h4 style='text-align:right'>" . "Price: " . "$" . $itemPrice . "</h4>" . "<br>" . "<img src='$itemImage' alt='$itemDescription' height='180' width='180'>";            
         }
+    }    
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,7 +34,7 @@
           <a href="support.php">Support</a>
           <a href="logout.php">Sign out</a>
         </div>   
-    <a id="adminLogin" href="pages/adminLogin.php">Login as admin</a>
+    <a id="adminLogin" href="adminLogin.php">Login as admin</a>
     <br><h1>Plugur Corporation Mining Equipment</h1>
     <br/>
     <div id="orderBar">
