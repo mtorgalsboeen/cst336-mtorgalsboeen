@@ -3,20 +3,17 @@
     function produkter(){
     $connect = getDBConnection();
     $sql = "SELECT * FROM products";
+    
     $result = $connect->query($sql);
+    $records = executeWithParameter($sql,$namedParameters);
          
         foreach ($result as $row) {
          $itemName = $row['product_name']; 
          $itemPrice = $row['product_price']; 
          $itemImage = $row['product_image'];
          $itemDescription = $row['product_description'];
-         /*  echo $row["product_name"] . "<br>" . "<img src='$row["product_image"]'/>" . "<br>" . "Description: " . $row["product_description"] . "<br>" . "Price: " . 
-                $row["product_price"];
-                    echo "<br>"; */
-        echo "<h3>$itemName</h3>" . "<br>" . "<img src='$itemImage' alt='Smiley face' height='180' width='180'>" . "<br>" 
-            . "<h4>" . "Price: " . "$" . $itemPrice . "</h4>";            
+            echo "<h3>$itemName</h3>" . "<br>" . "<h4 style='text-align:right'>" . "Price: " . "$" . $itemPrice . "</h4>" . "<br>" . "<img src='$itemImage' alt='$itemDescription' height='180' width='180'>" . "<br>";            
         }
-    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -74,8 +71,5 @@
     <div>
         <?php produkter() ?>
     </div>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <script src="productPage.js"></script>       
     </body>
 </html>

@@ -9,8 +9,7 @@
         <div class="col-xs-1" align="center">
             <img src="img/7842_m3.png" heigh="250" width="250"></img>
             <div class="container">
-            <h1>Login</h1>
-            <p>You can log in using usernames <strong>mathias</strong> or <strong>mtorgalsboeen</strong>. The password is <strong>admin</strong>.</p>
+            <p>You can log in using username <strong>mathias</strong>. The password is <strong>admin</strong>.</p>
         
         <!--Form to enter credentials-->
         <div class="col-sm-6">

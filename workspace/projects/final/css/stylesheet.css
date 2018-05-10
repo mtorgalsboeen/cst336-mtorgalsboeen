@@ -24,3 +24,11 @@ div.scrollmenu a:hover {
      font-size:1.5em;
      line-height: .7em;
     }
+    
+#data {
+    float: left;
+    clear: right;
+}
+#workers {
+    /*float: right;*/
+}
