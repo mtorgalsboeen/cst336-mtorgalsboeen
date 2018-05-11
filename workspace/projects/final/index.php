@@ -9,12 +9,17 @@ $connect = getDBConnection();
         header("Location: login.php");
     }
     if(isset($_POST["submit"])){
-        $fnavn = $_POST["fnavn"];
-        $enavn = sha1($_POST["pass"]);
+             $name = $_POST['unavn']; 
+             $password = sha1($_POST['pass']);
+             $lastname = $_POST['lname']; 
+             $firstname = $_POST['fname'];              
+             $userid = $_POST['userId'];
+             $city = $_POST['city'];
+             $addy = $_POST['addy'];
         echo "<br>";
         try {
-        $query = "INSERT INTO users(userId, username, password) ";
-        $query .= "VALUES (NULL, '$fnavn','$enavn')";
+        $query = "INSERT INTO user_table (userId, firstName, lastName, username, 
+                    password, city, addy) VALUES (NULL, '$firstname', '$lastname', '$name', '$password', '$city', '$addy')";
         $connect->exec($query);
         echo "User is added!";
         }
@@ -29,22 +34,23 @@ $connect = getDBConnection();
     function findUsers(){
     $connect = getDBConnection();    
     if(isset($_POST['find'])){
-        echo "Halla";
-        $sql = "SELECT * FROM users";
+        $sql = "SELECT * FROM user_table";
         $result = $connect->query($sql);
         //$records = executeWithParameter($sql,$namedParameters);
             foreach ($result as $row) {
              $name = $row['username']; 
-             $password = $row['password']; 
+             $password = $row['password'];
+             $lastname = $row['lastName']; 
+             $firstname = $row['firstName'];              
              $userid = $row['userId'];
+             $city = $row['city'];
+             $address = $row['addy'];
                 echo "<br>" . "<br>" . "<br>" . "<br>";
-                echo "<br>" . "<br>" . "<br>" . "<br>";
-                echo "<br>" . "<br>" . "<br>" . "<br>";
-                echo "<br>" . "<br>" . "<br>" . "<br>";
-                echo "Username: " . $name . "<br>" . "Password: " . $password . "<br>" . "UserID: " . $userid . "<br>" .
-                    "<input type='submit' class='btn btn-danger' name='deleteUser'>Delete User</input>" . "<button class='btn btn-primary' id='editUser'>Edit User</button>";            
+                echo "<h4>Username: </h4>" . $name . "<br>" . "<h4>Password: </h4>" . $password . "<br>" . "<h4>UserID: </h4>" . $userid . "<br>" .
+                    "<h4>Name: </h4>" . $firstname . " " . $lastname . "<br>" . "<h4>City: </h4>" . $city . "<br>" . "<h4>Wallet-ID: " . $address .
+                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . "<br> <br>" . "<button class='btn btn-primary' id='editUser'>Edit User</button>";            
             }
-    }
+        }
     }
     if(isset($_POST['deleteuser'])){
         echo "<h1>hello</h1>";
@@ -61,6 +67,33 @@ $connect = getDBConnection();
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
         <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
     </head>
+    <script>
+            $(document).ready(function(){        
+            $("#zipCode").change(function(){
+                
+               // alert( $("#zipCode").val() )});
+                $.ajax({
+
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                dataType: "json",
+                data: { "zip": $("#zipCode").val() },
+                success: function(data,status) {
+                //alert(data);
+                $("#city").html(data.city);
+                
+                if(!data){
+                    $("#zip_alert").html("Zipcode invalid");
+                }
+                },
+                complete: function(data,status) { //optional, used for debugging purposes
+                //alert(status);
+                }
+
+                });
+            });   
+            });
+    </script>
     <body>
         <h1>CST336 - Final Project</h1>
         <div class="scrollmenu">
@@ -76,13 +109,30 @@ $connect = getDBConnection();
                 <div class="col-sm-6">
                     <form action="" method="post" align="center">
                         <div class="form-group">
+                            <label for="pass">Firstname: </label>
+                            <input type="text" class="form-control" name="fname"/>
+                        </div>  
+                        <div class="form-group">
+                            <label for="pass">Lastname: </label>
+                            <input type="text" class="form-control" name="lname"/>
+                        </div>                        
+                        <div class="form-group">
                             <label for="fnavn">Username: </label>
-                            <input type="text" class="form-control" name="fnavn"/>
+                            <input type="text" class="form-control" name="unavn"/>
                         </div>
                         <div class="form-group">
                             <label for="pass">Password: </label>
                             <input type="text" class="form-control" name="pass"/>
                         </div>
+                        <div class="form-group">
+                            <label for="zipCode">Zipcode: </label>
+                            <input id="zipCode" type="text"><br>                            
+                            <span id="city"></span>
+                        </div> 
+                        <div class="form-group">
+                            <label for="addy">Wallet-Address: </label>
+                            <input type="text" class="form-control" name="addy"/>
+                        </div>                        
                         <input type="submit" class="btn btn-primary" name="submit" value="Submit"/>
                         <input type="submit" class="btn btn-primary" name="find" value="Find Users"/>
                     </form>

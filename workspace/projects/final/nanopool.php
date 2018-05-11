@@ -1,5 +1,7 @@
 <?php
+    include 'connect.php';
     session_start();
+    $connect = getDBConnection();
    
     if(isset($_SESSION['username'])){
         echo "Logged in as" . " " . $_SESSION['username'];
@@ -40,7 +42,7 @@
 
             $lengdeWorkers = count($nanopool_workers_array['data']);
             echo "<div>" . "<h2>Workers</h2>";
-            echo "<br>" . "<br>";
+            echo "<br>";
             for($k=0;$k<$lengdeWorkers;$k++){
                 $theWorkers = "Worker: " . $nanopool_workers_array['data'][$k]['id'] . "<br>" . "Current Hashrate: " . $nanopool_workers_array['data'][$k]['hashrate'] . "<br>";
                 echo $theWorkers;
@@ -58,12 +60,12 @@
             
             
             $lengdeValuta = count($coinmarket_values_array);
-            echo "<div>" . "<h2>Currencies</h2>";
+            echo "<h2>Currencies</h2>";
             for($j=0;$j<10;$j++){
-                $theValuta = $coinmarket_values_array[$j]['long'] . "<br>";
+                $theValuta = $coinmarket_values_array[$j]['long'] . "<br>" . "Price: " . $coinmarket_values_array[$j]['price'] . "<br>"
+                    . "Change last 24 hours: " . $coinmarket_values_array[$j]['perc'] . "%" . "<br>" . "<br>";
                 echo $theValuta;
             }
-            echo "</div>";
          }
        }
      //   0xe0946bc010a5a842eeeae255214c2ec673e500b7
