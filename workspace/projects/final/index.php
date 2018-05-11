@@ -47,8 +47,8 @@ $connect = getDBConnection();
              $address = $row['addy'];
                 echo "<br>" . "<br>" . "<br>" . "<br>";
                 echo "<h4>Username: </h4>" . $name . "<br>" . "<h4>Password: </h4>" . $password . "<br>" . "<h4>UserID: </h4>" . $userid . "<br>" .
-                    "<h4>Name: </h4>" . $firstname . " " . $lastname . "<br>" . "<h4>City: </h4>" . $city . "<br>" . "<h4>Wallet-ID: " . $address .
-                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . "<br> <br>" . "<button class='btn btn-primary' id='editUser'>Edit User</button>";            
+                    "<h4>Name: </h4>" . $firstname . " " . $lastname . "<br>" . "<h4>City: </h4>" . $city . "<br>" . "<h4>Wallet-ID: </h4>" . $address . "<br>" .
+                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . " " . " " . "<button class='btn btn-primary' id='editUser'>Edit User</button>";            
             }
         }
     }
@@ -62,7 +62,8 @@ $connect = getDBConnection();
 <html>
     <head>
         <title>CST336 - Final</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
         <link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
@@ -106,6 +107,7 @@ $connect = getDBConnection();
         <div class="col-xs-1" align="center">
             <div class="container">
                 <h1>Register New Admin</h1>
+                <h4>To make AJAX call work, replace HTTPS with HTTP</h4>
                 <div class="col-sm-6">
                     <form action="" method="post" align="center">
                         <div class="form-group">
