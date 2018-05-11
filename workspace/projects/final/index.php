@@ -100,6 +100,7 @@ $connect = getDBConnection();
         <div class="scrollmenu">
           <a href="index.php">Home</a>
           <a href="shop.php">Shop</a>
+          <a href="shop_inside.php">Shop Report</a>
           <a href="nanopool.php">Nanopool</a>
           <a href="support.php">Support</a>
           <a href="logout.php">Sign out</a>

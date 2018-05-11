@@ -261,3 +261,7 @@ Stack trace:
 [11-May-2018 21:47:45 UTC] PHP Stack trace:
 [11-May-2018 21:47:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/index.php:0
 [11-May-2018 21:47:45 UTC] PHP   2. findUsers() /home/ubuntu/workspace/projects/final/index.php:143
+[11-May-2018 23:11:15 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/projects/final/shop_inside.php on line 13
+[11-May-2018 23:11:15 UTC] PHP Stack trace:
+[11-May-2018 23:11:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop_inside.php:0
+[11-May-2018 23:11:15 UTC] PHP   2. theReport() /home/ubuntu/workspace/projects/final/shop_inside.php:40
