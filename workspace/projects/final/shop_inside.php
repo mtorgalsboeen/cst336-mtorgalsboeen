@@ -19,6 +19,27 @@ $connect = getDBConnection();
             echo "The average price of products in shop is: " .$avgPrice;            
         } 
     }
+    if(isset($_POST["submit"])){
+             $name = $_POST['name']; 
+             $price = $_POST['price'];
+             $description = $_POST['description']; 
+             $image_url = $_POST['image'];              
+        echo "<br>";
+        try {
+        $query = "INSERT INTO products (productId, product_name, product_image, product_description, 
+                    product_price) VALUES (NULL, '$name', '$image_url', '$description', '$price')";
+        $connect->exec($query);
+        echo "Product is added!";
+        echo "<br>" . $city; 
+        }
+        catch(PDOException $e)
+            {
+            echo $query . "<br>" . $e->getMessage();
+            }
+        
+        $connect = null;        
+                
+            }    
 ?>    
 <!DOCTYPE html>
 <html>
@@ -37,7 +58,32 @@ $connect = getDBConnection();
           <a href="nanopool.php">Nanopool</a>
           <a href="support.php">Support</a>
           <a href="logout.php">Sign out</a>
-        </div>  
+        </div>
+<div class="col-xs-1" align="center">
+            <div class="container">
+                <h1>Register New Product</h1>
+                <div class="col-sm-6">
+                    <form action="" method="post" align="center">
+                        <div class="form-group">
+                            <label for="name">Product Name: </label>
+                            <input type="text" class="form-control" name="name"/>
+                        </div>  
+                        <div class="form-group">
+                            <label for="price">Product Price: </label>
+                            <input type="text" class="form-control" name="price"/>
+                        </div>                        
+                        <div class="form-group">
+                            <label for="description">Product Description: </label>
+                            <input type="text" class="form-control" name="description"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Image URL: </label>
+                            <input type="text" class="form-control" name="image"/>
+                        </div>
+                        <input type="submit" class="btn btn-primary" name="submit" value="Add"/>
+                    </form>
+                </div>
+            </div>        
         <div>
             <?php theReport() ?>
         </div>

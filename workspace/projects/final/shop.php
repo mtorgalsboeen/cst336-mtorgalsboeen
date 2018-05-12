@@ -12,7 +12,7 @@
          $itemPrice = $row['product_price']; 
          $itemImage = $row['product_image'];
          $itemDescription = $row['product_description'];
-            echo "<h3>$itemName</h3>" . "<br>" . "<h4 style='text-align:right'>" . "Price: " . "$" . $itemPrice . "</h4>" . "<br>" . "<img src='$itemImage' alt='$itemDescription' height='180' width='180'>";            
+            echo "<h3>$itemName</h3>" . "<br>" . "<h4 style='text-align:center'>" . $itemDescription . "</h4>" . "<h4 style='text-align:right'>" . "Price: " . "$" . $itemPrice . "</h4>" . "<br>" . "<img src='$itemImage' alt='$itemDescription' height='180' width='180'>";            
         }
     }    
 ?>
@@ -63,6 +63,7 @@
         <table class="table table-striped">
             <tr>
                 <th scope="col">Product Name</th>
+                <th scope="col">Description</th>
                 <th scope="col">Price</th>
             </tr>
             <tbody id="dataWrapper">
