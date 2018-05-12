@@ -49,7 +49,7 @@ $connect = getDBConnection();
                 echo "<br>" . "<br>" . "<br>" . "<br>";
                 echo "<h4>Username: </h4>" . $name . "<br>" . "<h4>Password: </h4>" . $password . "<br>" . "<h4>UserID: </h4>" . $userid . "<br>" .
                     "<h4>Name: </h4>" . $firstname . " " . $lastname . "<br>" . "<h4>City: </h4>" . $city . "<br>" . "<h4>Wallet-ID: </h4>" . $address . "<br>" .
-                    "<a class='btn btn-danger' onclick='return confirmEdit()' href = 'editProduct.php? userId=".$row['userId']."'> Edit User</a> <br />";
+                    "<a class='btn btn-warning' onclick='return confirmEdit()' href = 'editProduct.php? userId=".$row['userId']."'> Edit User</a> <br />";
                 echo "<br>" . "<br>";    
                 echo"<a class='btn btn-danger' onclick='return confirmDelete()' href = 'deleteProduct.php? userId=".$row['userId']."'> Delete User</a> <br />";        
             }
