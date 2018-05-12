@@ -49,7 +49,9 @@ $connect = getDBConnection();
                 echo "<br>" . "<br>" . "<br>" . "<br>";
                 echo "<h4>Username: </h4>" . $name . "<br>" . "<h4>Password: </h4>" . $password . "<br>" . "<h4>UserID: </h4>" . $userid . "<br>" .
                     "<h4>Name: </h4>" . $firstname . " " . $lastname . "<br>" . "<h4>City: </h4>" . $city . "<br>" . "<h4>Wallet-ID: </h4>" . $address . "<br>" .
-                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . " " . " " . "<button class='btn btn-primary' id='editUser'>Edit User</button>";
+                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . " " 
+                        . " " . "<button class='btn btn-primary' id='editUser'>Edit User</button>";
+                echo"[<a onclick='return confirmDelete()' href = 'deleteProduct.php? userId=".$row['userId']."'> Delete</a>] <br />";        
             }
         }
     }
@@ -94,6 +96,10 @@ $connect = getDBConnection();
                 });
             });   
             });
+           function confirmDelete()
+            {
+                return confirm("Are you sure?");
+            }            
     </script>
     <body>
         <h1>CST336 - Final Project</h1>

@@ -5,7 +5,6 @@
     $sql = "SELECT * FROM products";
     
     $result = $connect->query($sql);
-    //$records = executeWithParameter($sql,$namedParameters);
          
         foreach ($result as $row) {
          $itemName = $row['product_name']; 
