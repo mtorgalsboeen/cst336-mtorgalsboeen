@@ -52,7 +52,7 @@ $connect = getDBConnection();
             }
         }
     }
-    if(isset($_POST['deleteuser'])){
+    if(isset($_POST['deleteUser'])){
         echo "<h1>hello</h1>";
     }     
 // http://www.torgalsboen.no/bilder/motherboard.jpg

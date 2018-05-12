@@ -265,3 +265,263 @@ Stack trace:
 [11-May-2018 23:11:15 UTC] PHP Stack trace:
 [11-May-2018 23:11:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/shop_inside.php:0
 [11-May-2018 23:11:15 UTC] PHP   2. theReport() /home/ubuntu/workspace/projects/final/shop_inside.php:40
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 00:38:17 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, double given in /home/ubuntu/workspace/projects/final/nanopool.php on line 29
+[12-May-2018 00:38:17 UTC] PHP Stack trace:
+[12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
+[12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
