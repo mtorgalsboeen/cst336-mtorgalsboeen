@@ -11,13 +11,21 @@ $connect = getDBConnection();
     function theReport(){
     $connect = getDBConnection();    
     $sql = "SELECT avg(product_price) FROM products";
+    $sql2 = "SELECT count(userId) FROM user_table";
     $result = $connect->query($sql);
+    $result2 = $connect->query($sql2);
+    
 
         foreach ($result as $row) {
          $avgPrice = $row['avg(product_price)']; 
             echo "<br>" . "<br>";
-            echo "The average price of products in shop is: " .$avgPrice;            
+            echo "The average price of products in shop is: " . "$".$avgPrice;            
         } 
+        foreach ($result2 as $row2) {
+         $users = $row2['count(userId)']; 
+            echo "<br>" . "<br>";
+            echo "Amount of users registrered: " .$users;            
+        }        
     }
     if(isset($_POST["submit"])){
              $name = $_POST['name']; 
