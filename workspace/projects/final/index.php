@@ -22,6 +22,7 @@ $connect = getDBConnection();
                     password, city, addy) VALUES (NULL, '$firstname', '$lastname', '$name', '$password', '$city', '$addy')";
         $connect->exec($query);
         echo "User is added!";
+        echo "<br>" . $city; 
         }
         catch(PDOException $e)
             {
@@ -48,7 +49,7 @@ $connect = getDBConnection();
                 echo "<br>" . "<br>" . "<br>" . "<br>";
                 echo "<h4>Username: </h4>" . $name . "<br>" . "<h4>Password: </h4>" . $password . "<br>" . "<h4>UserID: </h4>" . $userid . "<br>" .
                     "<h4>Name: </h4>" . $firstname . " " . $lastname . "<br>" . "<h4>City: </h4>" . $city . "<br>" . "<h4>Wallet-ID: </h4>" . $address . "<br>" .
-                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . " " . " " . "<button class='btn btn-primary' id='editUser'>Edit User</button>";            
+                    "<button class='btn btn-danger' name='deleteUser'>Delete User</button>" . " " . " " . "<button class='btn btn-primary' id='editUser'>Edit User</button>";
             }
         }
     }
@@ -90,7 +91,6 @@ $connect = getDBConnection();
                 complete: function(data,status) { //optional, used for debugging purposes
                 //alert(status);
                 }
-
                 });
             });   
             });
@@ -131,7 +131,8 @@ $connect = getDBConnection();
                             <label for="zipCode">Zipcode: </label>
                             <input id="zipCode" type="text"><br>                            
                             <span id="city"></span>
-                        </div> 
+                            <input type="hidden" id="city" name="city"/>
+                        </div>
                         <div class="form-group">
                             <label for="addy">Wallet-Address: </label>
                             <input type="text" class="form-control" name="addy"/>
