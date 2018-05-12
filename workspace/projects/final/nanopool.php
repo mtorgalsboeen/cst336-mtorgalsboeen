@@ -2,7 +2,7 @@
     include 'connect.php';
     session_start();
     $connect = getDBConnection();
-   
+   //Checks if user is logged in, otherwise redirect to login-page
     if(isset($_SESSION['username'])){
         echo "Logged in as" . " " . $_SESSION['username'];
     } else{

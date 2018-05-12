@@ -2,7 +2,7 @@
 include 'connect.php';
 session_start();
 $connect = getDBConnection();
-    //displays Quiz if session is active
+    //Checks if user is logged in, otherwise redirect to login-page
     if(isset($_SESSION['username'])){
         echo "Logged in as" . " " . $_SESSION['username'];
     } else{
@@ -37,7 +37,7 @@ $connect = getDBConnection();
     if(isset($_POST['find'])){
         $sql = "SELECT * FROM user_table";
         $result = $connect->query($sql);
-        //$records = executeWithParameter($sql,$namedParameters);
+        
             foreach ($result as $row) {
              $name = $row['username']; 
              $password = $row['password'];
@@ -49,17 +49,12 @@ $connect = getDBConnection();
                 echo "<br>" . "<br>" . "<br>" . "<br>";
                 echo "<h4>Username: </h4>" . $name . "<br>" . "<h4>Password: </h4>" . $password . "<br>" . "<h4>UserID: </h4>" . $userid . "<br>" .
                     "<h4>Name: </h4>" . $firstname . " " . $lastname . "<br>" . "<h4>City: </h4>" . $city . "<br>" . "<h4>Wallet-ID: </h4>" . $address . "<br>" .
-                    "<button class='btn btn-primary' id='editUser'>Edit User</button>";
+                    "<a class='btn btn-danger' onclick='return confirmEdit()' href = 'editProduct.php? userId=".$row['userId']."'> Edit User</a> <br />";
                 echo "<br>" . "<br>";    
                 echo"<a class='btn btn-danger' onclick='return confirmDelete()' href = 'deleteProduct.php? userId=".$row['userId']."'> Delete User</a> <br />";        
             }
         }
     }
-    if(isset($_POST['deleteUser'])){
-        echo "<h1>hello</h1>";
-    }     
-// http://www.torgalsboen.no/bilder/motherboard.jpg
-// https://www.google.com/search?rlz=1C1CHBF_enUS796US796&ei=wY3zWsWoJdDcjwOx_47YBA&q=generate+sql+delete+button+with+each+echo+php+&oq=generate+sql+delete+button+with+each+echo+php+&gs_l=psy-ab.3...4188.12940.0.13116.20.20.0.0.0.0.78.1251.20.20.0....0...1c.1.64.psy-ab..0.9.566...33i160k1j33i21k1.0.sFCBQexeTw0
 ?>
 <!DOCTYPE html>
 <html>
@@ -99,7 +94,11 @@ $connect = getDBConnection();
            function confirmDelete()
             {
                 return confirm("Are you sure?");
-            }            
+            }
+           function confirmEdit()
+            {
+                return confirm("Are you sure?");
+            }             
     </script>
     <body>
         <h1>CST336 - Final Project</h1>

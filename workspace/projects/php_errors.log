@@ -525,3 +525,6 @@ Stack trace:
 [12-May-2018 00:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
 [12-May-2018 00:38:17 UTC] PHP   2. getData() /home/ubuntu/workspace/projects/final/nanopool.php:103
 [12-May-2018 00:38:17 UTC] PHP   3. array_sum() /home/ubuntu/workspace/projects/final/nanopool.php:29
+[12-May-2018 23:26:59 UTC] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/ubuntu/workspace/projects/final/editProduct.php on line 53
+[12-May-2018 23:26:59 UTC] PHP Stack trace:
+[12-May-2018 23:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/editProduct.php:0
