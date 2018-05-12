@@ -131,7 +131,6 @@ $connect = getDBConnection();
                             <label for="zipCode">Zipcode: </label>
                             <input id="zipCode" type="text"><br>                            
                             <span id="city"></span>
-                            <input type="hidden" id="city" name="city"/>
                         </div>
                         <div class="form-group">
                             <label for="addy">Wallet-Address: </label>
