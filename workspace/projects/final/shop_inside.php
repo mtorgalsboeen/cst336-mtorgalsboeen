@@ -12,8 +12,10 @@ $connect = getDBConnection();
     $connect = getDBConnection();    
     $sql = "SELECT avg(product_price) FROM products";
     $sql2 = "SELECT count(userId) FROM user_table";
+    $sql3 = "SELECT sum(product_price) FROM products";
     $result = $connect->query($sql);
     $result2 = $connect->query($sql2);
+    $result3 = $connect->query($sql3);
     
 
         foreach ($result as $row) {
@@ -25,6 +27,11 @@ $connect = getDBConnection();
          $users = $row2['count(userId)']; 
             echo "<br>" . "<br>";
             echo "Amount of users registrered: " .$users;            
+        }
+        foreach ($result3 as $row3) {
+         $pricing = $row3['sum(product_price)']; 
+            echo "<br>" . "<br>";
+            echo "Total inventory value: " .$pricing;            
         }        
     }
     if(isset($_POST["submit"])){

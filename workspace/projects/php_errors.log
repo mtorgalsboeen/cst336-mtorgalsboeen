@@ -528,3 +528,9 @@ Stack trace:
 [12-May-2018 23:26:59 UTC] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/ubuntu/workspace/projects/final/editProduct.php on line 53
 [12-May-2018 23:26:59 UTC] PHP Stack trace:
 [12-May-2018 23:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/editProduct.php:0
+[13-May-2018 20:26:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_price' in 'field list'' in /home/ubuntu/workspace/projects/final/shop_inside.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop_inside.php(18): PDO->query('SELECT sum(prod...')
+#1 /home/ubuntu/workspace/projects/final/shop_inside.php(103): theReport()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop_inside.php on line 18
