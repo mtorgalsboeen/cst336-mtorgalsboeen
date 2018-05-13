@@ -23,11 +23,14 @@
             $lengdeETC = count($nanopool_json_array['data']);
             echo "<div>" . "<h2>Payments</h2>";
             echo "<br>";
+            $sum = 0;
             for($i=0;$i<$lengdeETC;$i++){
                 $amount = $nanopool_json_array['data'][$i]['amount'];
                 echo "<div>" . $amount . "<br>" . "</div>";
+                $sum += $amount;
             }
             echo "</div>";
+            echo "Total paid: {$sum}" . " " . "ETH";
        }
     }
        function getWorkers(){
