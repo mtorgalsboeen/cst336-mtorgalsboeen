@@ -2,10 +2,11 @@
     include '../connect.php';
     $connect = getDBConnection();
     $randomCharacter = rand(1,7);
+    $theNumber = $randomCharacter;
     function randomImage(){
-    global $randomCharacter;
+    global $theNumber;
     global $connect;
-    $sql = "SELECT * FROM superhero WHERE id='$randomCharacter'";
+    $sql = "SELECT * FROM superhero WHERE id='$theNumber'";
     $result = $connect->query($sql);
          
         foreach ($result as $row) {
@@ -39,21 +40,18 @@
             echo "<br>";
         }
         if(isset($_POST["submit"])){
-            global $randomCharacter;
+            global $theNumber;
             $selected_val = $_POST['selectedCar'];  // Storing Selected Value In Variable
             echo "Her er forste: " . $selected_val;
-            echo "Her er random tall: " . $randomCharacter;
+            echo "Her er random tall: " . $theNumber;
             if($selected_val === '0'){
                 echo '<script type="text/javascript">alert("You need to enter a valid value!");</script>';
             }
-            if($selected_val == $randomCharacter){
+            if($selected_val == $theNumber){
                 //echo "You are correct";
                 echo '<script type="text/javascript">alert("You are correct");</script>';
             } 
-        }    
-        
-
-    
+        }
 ?>
 <!DOCTYPE html>
 <html>
