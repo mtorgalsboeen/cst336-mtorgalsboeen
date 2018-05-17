@@ -1,4 +1,5 @@
 <?php
+    // https://cst336-mtorgalsboeen.herokuapp.com/
     include 'connect.php';
     session_start();
     $connect = getDBConnection();
@@ -50,7 +51,7 @@
                 //$theWorkers = "Worker: " . $nanopool_workers_array['data'][$k]['id'] . "<br>" . "Current Hashrate: " . $nanopool_workers_array['data'][$k]['hashrate'] . "<br>";
                 $theWorkers = "Worker: " . "GoldDigger" . "<br>" . "Current Hashrate: " . $nanopool_workers_array['data'][$k]['hashrate'] . "<br>";
                 echo $theWorkers;
-            }
+            } 
             echo "</div>";
        }
        }

@@ -4,6 +4,20 @@
     $connect = getDBConnection();
     $sql = "SELECT * FROM products";
     
+    if (isset($_GET['orderBy'])) {
+        if ($_GET['orderBy'] == 'orderByNameDesc') {
+           $sql .= " ORDER BY product_name DESC";
+        } else if ($_GET['orderBy'] == 'orderByNameAsc') {
+           $sql .= " ORDER BY product_name";
+        }
+        else if ($_GET['orderBy'] == 'orderByPriceHigh') {
+           $sql .= " ORDER BY product_price DESC";
+        }
+        else if ($_GET['orderBy'] == 'orderByPriceLow') {
+           $sql .= " ORDER BY product_price";
+        }
+    } 
+    
     $result = $connect->query($sql);
          
         foreach ($result as $row) {
