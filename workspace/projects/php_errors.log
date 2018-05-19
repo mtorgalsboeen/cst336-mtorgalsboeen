@@ -534,3 +534,9 @@ Stack trace:
 #1 /home/ubuntu/workspace/projects/final/shop_inside.php(103): theReport()
 #2 {main}
   thrown in /home/ubuntu/workspace/projects/final/shop_inside.php on line 18
+[19-May-2018 04:12:15 UTC] PHP Warning:  file_get_contents(https://api.nanopool.org/v1/etc/workers/0xe0946bc010a5a842eeeae255214c2ec673e500b7): failed to open stream: HTTP request failed! HTTP/1.1 502 Bad Gateway
+ in /home/ubuntu/workspace/projects/final/nanopool.php on line 43
+[19-May-2018 04:12:15 UTC] PHP Stack trace:
+[19-May-2018 04:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
+[19-May-2018 04:12:15 UTC] PHP   2. getWorkers() /home/ubuntu/workspace/projects/final/nanopool.php:110
+[19-May-2018 04:12:15 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/projects/final/nanopool.php:43

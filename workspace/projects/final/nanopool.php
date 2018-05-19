@@ -48,8 +48,8 @@
             echo "<div>" . "<h2>Workers</h2>";
             echo "<br>";
             for($k=0;$k<$lengdeWorkers;$k++){
-                //$theWorkers = "Worker: " . $nanopool_workers_array['data'][$k]['id'] . "<br>" . "Current Hashrate: " . $nanopool_workers_array['data'][$k]['hashrate'] . "<br>";
-                $theWorkers = "Worker: " . "GoldDigger" . "<br>" . "Current Hashrate: " . $nanopool_workers_array['data'][$k]['hashrate'] . "<br>";
+                $theWorkers = "Worker: " . $nanopool_workers_array['data'][$k]['id'] . "<br>" . "Current Hashrate: " . $nanopool_workers_array['data'][$k]['hashrate'] . "<br>";
+                
                 echo $theWorkers;
             } 
             echo "</div>";
