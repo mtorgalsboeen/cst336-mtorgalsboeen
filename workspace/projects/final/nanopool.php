@@ -102,6 +102,7 @@
                     </div>
                     <input type="submit" class="btn btn-primary" name="submit" value="Submit"/>
                 </form>
+                <p>Use this address: 0xe0946bc010a5a842eeeae255214c2ec673e500b7</p>
             </div>
             <div id="data">
                     <?php getData() ?>
