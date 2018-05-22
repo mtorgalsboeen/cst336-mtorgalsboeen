@@ -540,3 +540,45 @@ Stack trace:
 [19-May-2018 04:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/projects/final/nanopool.php:0
 [19-May-2018 04:12:15 UTC] PHP   2. getWorkers() /home/ubuntu/workspace/projects/final/nanopool.php:110
 [19-May-2018 04:12:15 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/projects/final/nanopool.php:43
+[22-May-2018 07:47:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY product_price DESC' at line 1' in /home/ubuntu/workspace/projects/final/shop.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop.php(14): PDO->query('SELECT * FROM p...')
+#1 /home/ubuntu/workspace/projects/final/shop.php(90): produkter()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop.php on line 14
+[22-May-2018 07:49:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY product_name' at line 1' in /home/ubuntu/workspace/projects/final/shop.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop.php(20): PDO->query('SELECT * FROM p...')
+#1 /home/ubuntu/workspace/projects/final/shop.php(81): produkter()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop.php on line 20
+[22-May-2018 07:49:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY product_name DESC ORDER BY product_name' at line 1' in /home/ubuntu/workspace/projects/final/shop.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop.php(20): PDO->query('SELECT * FROM p...')
+#1 /home/ubuntu/workspace/projects/final/shop.php(81): produkter()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop.php on line 20
+[22-May-2018 07:49:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY product_name DESC ORDER BY product_name' at line 1' in /home/ubuntu/workspace/projects/final/shop.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop.php(20): PDO->query('SELECT * FROM p...')
+#1 /home/ubuntu/workspace/projects/final/shop.php(80): produkter()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop.php on line 20
+[22-May-2018 07:49:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY product_name' at line 1' in /home/ubuntu/workspace/projects/final/shop.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop.php(20): PDO->query('SELECT * FROM p...')
+#1 /home/ubuntu/workspace/projects/final/shop.php(80): produkter()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop.php on line 20
+[22-May-2018 07:51:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY product_name' at line 1' in /home/ubuntu/workspace/projects/final/shop.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop.php(20): PDO->query('SELECT * FROM p...')
+#1 /home/ubuntu/workspace/projects/final/shop.php(83): produkter()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop.php on line 20
+[22-May-2018 08:08:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price' in 'order clause'' in /home/ubuntu/workspace/projects/final/shop.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/projects/final/shop.php(34): PDO->query('SELECT * FROM p...')
+#1 /home/ubuntu/workspace/projects/final/shop.php(95): produkter()
+#2 {main}
+  thrown in /home/ubuntu/workspace/projects/final/shop.php on line 34

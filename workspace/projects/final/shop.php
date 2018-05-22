@@ -2,30 +2,31 @@
     include 'connect.php';
     function produkter(){
     $connect = getDBConnection();
-    $sql = "SELECT * FROM products";
-    
-    if (isset($_GET['orderBy'])) {
-        if ($_GET['orderBy'] == 'orderByNameDesc') {
-           $sql .= " ORDER BY product_name DESC";
-        } else if ($_GET['orderBy'] == 'orderByNameAsc') {
-           $sql .= " ORDER BY product_name";
-        }
-        else if ($_GET['orderBy'] == 'orderByPriceHigh') {
-           $sql .= " ORDER BY product_price DESC";
-        }
-        else if ($_GET['orderBy'] == 'orderByPriceLow') {
-           $sql .= " ORDER BY product_price";
-        }
-    } 
-    
-    $result = $connect->query($sql);
-         
-        foreach ($result as $row) {
-         $itemName = $row['product_name']; 
-         $itemPrice = $row['product_price']; 
-         $itemImage = $row['product_image'];
-         $itemDescription = $row['product_description'];
-            echo "<h3>$itemName</h3>" . "<br>" . "<h4 style='text-align:center'>" . $itemDescription . "</h4>" . "<h4 style='text-align:right'>" . "Price: " . "$" . $itemPrice . "</h4>" . "<br>" . "<img src='$itemImage' alt='$itemDescription' height='180' width='180'>";            
+        if(isset($_GET['submit'])){
+            $sql = "SELECT * FROM products";
+            
+            if (isset($_GET['orderBy'])) {
+                if ($_GET['orderBy'] == 'orderByNameDesc') {
+                   $sql .= " ORDER BY product_name DESC";
+                } else if ($_GET['orderBy'] == 'orderByNameAsc') {
+                   $sql .= " ORDER BY product_name";
+                }
+                else if ($_GET['orderBy'] == 'orderByPriceHigh') {
+                   $sql .= " ORDER BY product_price DESC";
+                }
+                else if ($_GET['orderBy'] == 'orderByPriceLow') {
+                   $sql .= " ORDER BY product_price";
+                }
+            }            
+            $result = $connect->query($sql);
+                 
+                foreach ($result as $row) {
+                 $itemName = $row['product_name']; 
+                 $itemPrice = $row['product_price']; 
+                 $itemImage = $row['product_image'];
+                 $itemDescription = $row['product_description'];
+                    echo "<h3>$itemName</h3>" . "<br>" . "<h4 style='text-align:center'>" . $itemDescription . "</h4>" . "<h4 style='text-align:right'>" . "Price: " . "$" . $itemPrice . "</h4>" . "<br>" . "<img src='$itemImage' alt='$itemDescription' height='180' width='180'>";            
+                }            
         }
     }    
 ?>
@@ -50,9 +51,9 @@
     <a id="adminLogin" href="adminLogin.php">Login as admin</a>
     <br><h1>Plugur Corporation Mining Equipment</h1>
     <br/>
+    <form method="get">
     <div id="orderBar">
         <div id="asideRight">
-            <br>
             <input type="radio" name="orderBy" id="orderByNameAsc" checked value="orderByNameAsc">
             <label for="orderByNameAsc">Name A-Z</label>
             <input type="radio" name="orderBy" id="orderByPriceLow" value="orderByPriceLow">
@@ -62,8 +63,10 @@
             <label for="orderByPriceHigh">Price: High->Low</label>
             <input type="radio" name="orderBy" id="orderByNameDesc" value="orderByNameDesc">
             <label for="orderByNameDesc">Name Z-A</label>
+            <input type="submit" name="submit" onclick="document.getElementById('foo').checked = false"/>
         </div>
     </div>
+    </form>
     <div id="products">
         <table class="table table-striped">
             <tr>
