@@ -34,6 +34,12 @@ $connect = getDBConnection();
             echo "Total inventory value: " .$pricing;            
         }        
     }
+  //  function theOtherReport(){
+   //     $query = "SELECT orderId, orderDate, amount FROM order_table"
+        //SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+        //FROM Orders
+        //INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
+  //  }
     if(isset($_POST["submit"])){
              $name = $_POST['name']; 
              $price = $_POST['price'];
@@ -101,6 +107,9 @@ $connect = getDBConnection();
             </div>        
         <div>
             <?php theReport() ?>
+        </div>
+        <div>
+            <?php theOtherReport() ?>
         </div>
     </body>
 </html>

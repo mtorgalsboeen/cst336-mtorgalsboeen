@@ -51,14 +51,7 @@
     <br><h1>Plugur Corporation Mining Equipment</h1>
     <br/>
     <div id="orderBar">
-        <div id="asideLeft">
-            <strong>Product Name:</strong> <br>
-            <strong>Category:</strong> <br>
-            <strong>Order by:</strong>
-        </div>
         <div id="asideRight">
-        <input type="text" id="nameIncludes" name="nameIncludes" value=<?= $_GET["nameIncludes"]?>>
-        <br>
             <br>
             <input type="radio" name="orderBy" id="orderByNameAsc" checked value="orderByNameAsc">
             <label for="orderByNameAsc">Name A-Z</label>
@@ -70,7 +63,6 @@
             <input type="radio" name="orderBy" id="orderByNameDesc" value="orderByNameDesc">
             <label for="orderByNameDesc">Name Z-A</label>
         </div>
-       
     </div>
     <div id="products">
         <table class="table table-striped">
